@@ -1,0 +1,43 @@
+## Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+## Build output
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64*/
+
+## Packages
+packages/
+*.nupkg
+
+## EF Core
+Migrations/ # Əgər remote-da migration istəmirsənsə; əks halda bunu sil
+*.mdf
+*.ldf
+
+## Logs
+*.log
+logs/
+
+## Publish
+publish/
+artifacts/
+
+## System
+Thumbs.db
+Desktop.ini
+
+## Environment / Secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+.env
+secrets.json
